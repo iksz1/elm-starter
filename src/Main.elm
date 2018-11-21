@@ -1,4 +1,4 @@
-module Main exposing (main)
+module Main exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -6,6 +6,6 @@ import Html.Attributes exposing (..)
 
 main : Html a
 main =
-  div [ class "cool" ] [ 
-    h1 [] [ text "Build something cool!" ]
-  ]
+  div [ class "cool" ]
+    [ h1 [] [ text "Build something cool!" ]
+    ]

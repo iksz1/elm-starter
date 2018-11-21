@@ -97,6 +97,7 @@ module.exports = (env, argv) => {
     optimization: {
       minimizer: [
         // https://github.com/webpack-contrib/uglifyjs-webpack-plugin#options
+        // https://elm-lang.org/0.19.0/optimize
         new UglifyJsPlugin({
           parallel: true,
           uglifyOptions: {
